@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Reservation Homepage</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Imola Hotel</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Rooms</a>
+            <a href="#">Facilities</a>
+            <a href="#">Contact</a>
+            <a href="../login/Login.html">Login</a>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <form>
+            <input type="date" name="checkin" required>
+            <input type="date" name="checkout" required>
+            <select name="guests">
+            <option>1 Guest</option><option>2 Guests</option><option>3 Guests</option><option>4 Guests</option>
+            </select>
+            <button type="submit">Search</button>
+            </form>
+            <h1>Temukan Penginapan Terbaik</h1>
+            <p>Booking kamar hotel dengan mudah, cepat, dan nyaman.</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <section class="rooms">
+        <h2>Pilihan Kamar</h2>
+        <div class="room-list">
+            <div class="room-card">
+                <img src="assets/room1.jpg" alt="Room" />
+                <h3>Standard Room</h3>
+                <p>Mulai dari Rp550.000 / malam</p>
+            </div>
+
+            <div class="room-card">
+                <img src="assets/room2.jpg" alt="Room" />
+                <h3>Deluxe Room</h3>
+                <p>Mulai dari Rp1.000.000 / malam</p>
+            </div>
+
+            <div class="room-card">
+                <img src="assets/room3.jpg" alt="Room" />
+                <h3>Suite Room</h3>
+                <p>Mulai dari Rp1.500.000 / malam</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Imola Hotel. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
